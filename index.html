@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css"  />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- main-header -->
+        <header class="main-header">
+            <div class="logo-holder">
+               <a href="">t<span>o</span>mal</a>
+            </div>
+            <div class="search-holder">
+                <form action="" method="get">
+                    <input type="search" name="s" placeholder="search for">
+                    <button type="submit">search</button>
+                </form>
+            </div>
+        </header>
+        <!-- main-header -->
+        <!-- navbar -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">product</a></li>
+                <li><a href="">service</a>
+                    <ul class="drop">
+                        <li><a href="">service-1</a></li>
+                        <li><a href="">service-2</a></li>
+                        <li><a href="">service-3</a></li>
+                    </ul>
+                </li>
+                <li><a href="">about</a></li>
+                <li><a href="">contct</a></li>
+            </ul>
+        </nav>
+        <!-- navbar -->
+        <!-- Banner-slider -->
+        <section class="banner-holder">
+            <ul id="adaptive" >
+                <li><img src="https://placehold.co/1000x350" alt=""></li>
+                <li><img src="https://placehold.co/1000x350" alt=""></li>
+                <li><img src="https://placehold.co/1000x350" alt=""></li>
+            </ul>
+        </section>
+        <!-- Banner-slider -->
+        <!-- content -->
+        <section class="content-holder">
+            <main class="content">
+                <h1>main header is here</h1>
+                <h3>fuck the bitch</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, architecto ducimus! Maxime recusandae exercitationem enim porro sequi animi rerum ipsa deserunt quam ullam labore, sapiente distinctio aliquam necessitatibus ad cupiditate?</p>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, architecto ducimus! Maxime recusandae exercitationem enim porro sequi animi rerum ipsa deserunt quam ullam labore, sapiente distinctio aliquam necessitatibus ad cupiditate?</p>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, architecto ducimus! Maxime recusandae exercitationem enim porro sequi animi rerum ipsa deserunt quam ullam labore, sapiente distinctio aliquam necessitatibus ad cupiditate?</p>
+            </main>
+            <aside class="sidebar">
+                <div class="sidebar-widget">
+                    <h2>follow us</h2>
+                    <ul>
+                        <li><a href="">facebook</a></li>
+                        <li><a href="">instagram</a></li>
+                        <li><a href="">twetter</a></li>
+                        <li><a href="">linkdin</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+        <!-- content -->
+        <!-- footer-widget -->
+        <section class="footer-widget-holder">
+             <div class="footer-widget-right">
+                <a href="">t<span>o</span>mal</a>
+                <h3>address :</h3>
+                <address>west vanua , gazipur city corporation</address>
+             </div>
+             <div class="footer-widget-left">
+              <h4>sitemap</h4>
+              <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">product</a></li>
+                <li><a href="">service</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">contct</a></li>
+              </ul>
+             </div>
+             <div class="footer-widget-left">
+                <h4>sitemap</h4>
+                <ul>
+                  <li><a href="">home</a></li>
+                  <li><a href="">product</a></li>
+                  <li><a href="">service</a></li>
+                  <li><a href="">about</a></li>
+                  <li><a href="">contct</a></li>
+                </ul>
+               </div>
+               <div class="footer-widget-left">
+                <h4>sitemap</h4>
+                <ul>
+                  <li><a href="">home</a></li>
+                  <li><a href="">product</a></li>
+                  <li><a href="">service</a></li>
+                  <li><a href="">about</a></li>
+                  <li><a href="">contct</a></li>
+                </ul>
+               </div>
+             
+        </section>
+        <!-- footer-widget -->
+        <!-- footer -->
+        <footer class="footer">
+            <p><small>copyright &copy; 2023</small></p>
+        </footer>
+        <!-- footer -->
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js" ></script>
+    <script>
+        $(document).ready(function() {
+    $('#adaptive').lightSlider({
+        adaptiveHeight:true,
+        item:1,
+        slideMargin:0,
+        loop:true
+    });
+});
+    </script>
+</body>
+</html>
